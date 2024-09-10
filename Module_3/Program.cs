@@ -10,7 +10,8 @@ namespace Module_3
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Привет,\n мир");
+            Console.ReadKey();  
         }
     }
 }
