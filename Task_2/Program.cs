@@ -37,7 +37,6 @@ namespace Task_2
 
             Console.WriteLine("Введите 1 для сортировки А-Я или 2 для сортировки Я-А:");
 
-            
             try
             {
                 int input = int.Parse(Console.ReadLine() );
