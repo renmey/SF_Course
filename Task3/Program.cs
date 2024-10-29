@@ -59,7 +59,11 @@ namespace Task3
 
             Console.ReadKey();
         }
-
+        /// <summary>
+        /// /
+        /// </summary>
+        /// <param name="directoryPath"></param>
+        /// <returns></returns>
         public static double GetDirectorySize(string directoryPath)
         {
 
