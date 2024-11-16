@@ -31,6 +31,9 @@ namespace MiniCalculator
            
             try
             {
+
+
+               
                 if ((!double.TryParse(a, out double d) || (!double.TryParse(b, out double c)))) {
 
                     throw new MyException(Logger);

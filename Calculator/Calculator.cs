@@ -20,9 +20,7 @@ namespace MiniCalculator
 
         public double Add(double a, double b)
         {
-
-
-            Logger.Event("Результат сложения: ");
+          Logger.Event("Результат сложения: ");
            return a + b;
         }
     }
