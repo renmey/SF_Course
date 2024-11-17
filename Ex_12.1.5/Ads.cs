@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Ex_12._1._5
+namespace Ex12.c1.p5
 {
     public static class Ads
     {

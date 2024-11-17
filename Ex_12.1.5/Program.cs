@@ -4,22 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ex_12._1._5
+namespace Ex12.c1.p5
 {
     internal class Program
     {
         static void Main(string[] args)
         {
 
-            User user1 = new User("person1", "Jake", true);
-            User user2 = new User("person2", "Mary", false);
+            User user1 = new User
+            {
+                Login = "1person",
+                Name = "Jake",
+                IsPremium = true,
+            };
+
+            User user2 = new User
+            {
+                Login = "2person",
+                Name = "Mary",
+                IsPremium = false
+            };
 
             user1.Greetings();
             user2.Greetings();
 
-
             Console.ReadKey();  
-
         }
     }
 }
