@@ -44,11 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
-    <Compile Include="DefaultAccountCalculator.cs" />
+    <Compile Include="DefaultAccount.cs" />
     <Compile Include="IAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SalaryAccountCalculator.cs" />
+    <Compile Include="SalaryAccount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
