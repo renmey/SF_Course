@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Module_17_HW
 {
-    internal class SalaryAccountCalculator : IAccount
+    internal class SalaryAccount : IAccount
     {
         public double Balance { get ; set; }
         public double Interest { get; set ; }

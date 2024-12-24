@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Module_17_HW
 {
-    public class DefaultAccountCalculator : IAccount
+    public class DefaultAccount : IAccount
     {
         public double Balance { get; set; }
         public double Interest { get; set; }
